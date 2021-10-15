@@ -1,4 +1,6 @@
 export default {
-  primary: '#f7287b',
-  accent: '#c717fc'
+  primary: "green",
+  accent: "black",
+  text: "red",
+  cardBg: "#DFE0DF",
 };
