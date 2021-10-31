@@ -20,7 +20,7 @@ export default function App() {
   const [guessRounds, setGuessRounds] = useState(0);
   const [dataLoaded, setDataLoaded] = useState(false);
 
-  if (!dataLoaded) {
+  /*  if (!dataLoaded) {
     return (
       <AppLoading
         startAsync={fetchFonts}
@@ -28,7 +28,7 @@ export default function App() {
         onError={(err) => console.log(err)}
       />
     );
-  }
+  } */
 
   const configureNewGameHandler = () => {
     setGuessRounds(0);
